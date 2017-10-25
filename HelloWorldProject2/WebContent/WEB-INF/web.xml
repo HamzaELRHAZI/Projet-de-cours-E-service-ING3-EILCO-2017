@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<display-name>Mon application web</display-name>
+
+<!--fin de la section des servlets d’écoute-->
+<servlet>
+ <servlet-name>HelloServlet</servlet-name>
+ <servlet-class>fr.eilco.ing.HelloServlet</servlet-class>
+
+ </servlet>
+<!--fin de la section de déclaration des servlets-->
+ <servlet-mapping>
+ <servlet-name>HelloServlet</servlet-name>
+ <url-pattern>/Hello
+ </url-pattern>
+ </servlet-mapping>
+<!--fin de la section de déclaration des mappings Web des servlets-->
+ 
+</web-app>
