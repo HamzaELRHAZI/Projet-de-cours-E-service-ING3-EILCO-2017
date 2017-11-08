@@ -32,7 +32,7 @@ public class HelloServlet extends HttpServlet {
 		//out.println("HelloBasma");
 		//this.getServletContext().getRequestDispatcher( "/WEB-INF/Hello.jsp" ).forward( request, response );
 		//response.sendRedirect("testSendRedirect.html");
-		response.sendRedirect("WEB-INF/Hello.jsp");
+		response.sendRedirect("Hello.jsp");
 	}
 
 	/**

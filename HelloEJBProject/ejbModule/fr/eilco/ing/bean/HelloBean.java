@@ -10,7 +10,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(schema="database01", name="hellotable")
-
 public class HelloBean implements Serializable{
 	private  static final long seriaVersionUID= 1L;
 	private int id;
@@ -32,9 +31,6 @@ public class HelloBean implements Serializable{
 	public void setId(int id) {
 		this.id = id;
 		}
-	
-	
-	
 
 	
 }

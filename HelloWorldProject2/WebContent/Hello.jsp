@@ -8,10 +8,14 @@
 </head>
 <body>
 	<h1>Bonjour</h1>
-	<form action="" method="get">
-		<label>Nom: </label>
+	<form action="HelloEjbServlet" method="get">
+		<label>Nom  : </label>
 		<input name="nom" type="text">
 		<input type="submit"/>
 	</form> 
+	
+	<a href="HelloEjbServlet?nom=dupont" >Dire Bonjour</a>
+	
+	
 </body>
 </html>
